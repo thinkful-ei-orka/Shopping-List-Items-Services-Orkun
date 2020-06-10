@@ -1,4 +1,4 @@
-const ArticlesSerivce = {
+const ArticlesService = {
     getAllArticles(knex) {
         return knex.select('*').from('blogful_articles')
     },
@@ -26,4 +26,4 @@ const ArticlesSerivce = {
     },
 };
 
-module.exports = ArticlesSerivce;
+module.exports = ArticlesService;
