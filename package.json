@@ -6,6 +6,7 @@
   "scripts": {
     "test": "mocha --require test/setup.js",
     "start": "node src/practice.js",
+    "blogful": "node src/blogful.js",
     "dev": "nodemon src/server.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master"
